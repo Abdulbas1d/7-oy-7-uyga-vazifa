@@ -2,6 +2,7 @@ import React from 'react'
 import './index.css'
 import LightModePicture from '../../assets/images/light-icon.png'
 import DarkModePicture from '../../assets/images/dark-icon.png'
+import PizzaPicture from '../../assets/images/pizza-picture.jpg'
 
 function HomeworkTwo() {
   return (
@@ -20,7 +21,7 @@ function HomeworkTwo() {
 
       <div className="cards">
         <div className="card">
-          
+          <img src="" alt="" />
         </div>
       </div>
     </div>
