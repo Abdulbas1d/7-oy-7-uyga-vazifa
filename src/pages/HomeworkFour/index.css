@@ -1,0 +1,27 @@
+.container-four {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    h2 {
+        font-size: 33px;
+        text-align: center;
+    }
+
+    input {
+        width: 60%;
+        height: 30px;
+        margin-left: 140px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    .box {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+}

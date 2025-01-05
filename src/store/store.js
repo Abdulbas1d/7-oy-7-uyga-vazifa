@@ -1,10 +1,14 @@
 import { configureStore } from "@reduxjs/toolkit";
 import changeColorReducer from './changeColorSlice'
 import modeReducer from './modeSlice'
+import  textReducer  from "./textSlice";
+import chooseColorReducer from "./chooseColorSlice";
 
 export const store = configureStore({
     reducer: {
         "changeColor": changeColorReducer,
-        "mode": modeReducer
+        "mode": modeReducer,
+        "text": textReducer,
+        "color": chooseColorReducer
     }
 })

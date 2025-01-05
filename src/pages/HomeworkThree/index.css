@@ -1,0 +1,68 @@
+body {
+    overflow-x: hidden;
+    background-color: rgb(223, 223, 223);
+}
+
+.container-three {
+    width: 100vw;
+    height: 100vh;
+}
+
+.subject {
+    text-align: center;
+    font-size: 34px;
+    padding-top: 5px;
+    color: rgb(74, 74, 250);
+    letter-spacing: 0.5px;
+}
+
+.news {
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+    .new {
+        width: 30%;
+        padding: 13px;
+        border-radius: 10px;
+        border: 2px solid #c1bbbb;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        h2 {
+            font-size: 27px;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            font-size: 19px;
+            letter-spacing: 0.2px;
+        }
+
+        .submit {
+            width: 100%;
+            height: 42px;
+            padding-bottom: 4px;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            color: #fff;
+            background-color: blue;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .submit:hover {
+            background-color: #fff;
+            border:  2px solid blue;
+            color: blue;
+            font-size: 23px;
+        }
+    }
+}
